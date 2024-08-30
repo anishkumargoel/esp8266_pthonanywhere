@@ -5,8 +5,8 @@
 #define DHTPIN D1          // DHT11 sensor pin
 #define DHTTYPE DHT11      // DHT11 sensor type
 
-const char* ssid = "Lakshita24ghz"; // Your Wi-Fi network SSID
-const char* password = "9318396455"; // Your Wi-Fi network password
+const char* ssid = ""; // Your Wi-Fi network SSID
+const char* password = ""; // Your Wi-Fi network password
 const char* serverName = "https://app032823.pythonanywhere.com/api/send_data"; // Your HTTPS server address
 
 DHT dht(DHTPIN, DHTTYPE);
